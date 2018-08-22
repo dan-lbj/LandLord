@@ -1,0 +1,19 @@
+{
+  "name": "landlord",
+  "version": "1.0.0",
+  "description": "Guide to be a landlord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-lbj/LandLord.git"
+  },
+  "author": "LBJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan-lbj/LandLord/issues"
+  },
+  "homepage": "https://github.com/dan-lbj/LandLord#readme"
+}
