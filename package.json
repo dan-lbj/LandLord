@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dan-lbj/LandLord/issues"
   },
-  "homepage": "https://github.com/dan-lbj/LandLord#readme"
+  "homepage": "https://github.com/dan-lbj/LandLord#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  }
 }
