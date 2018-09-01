@@ -1,8 +1,19 @@
-const httpsServer = require('https');
+const http = require('http');
 
-httpsServer.createServer((req, res) => {
-    console.log('server starts');
-    res.end('LandLord');
-}).listen(8888);
+const server = http.createServer((req, res) => {
+    if(req.method == 'GET' && req.url == '/') {
+        res.setHeader('Content-Type', 'text/html');
+        res.write(`
+        <html>
+        <head>
+        <body>
+        Hello LandLord!
+        </body>
+        </head>
+        </html>
+        `);
+        res.end();
+    }
+});
 
-console.log('Be a landlord!');
+server.listen(3000);
